@@ -1,0 +1,60 @@
+.expense-form {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.expense-form-field label {
+  display: block;
+  margin: 0.25em auto;
+}
+
+.expense-form-field input {
+  font-weight: bold;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.expense-form-field input[type="date"] {
+  text-align: center;
+}
+
+.expense-form-action {
+  width: 50%;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense-form-action button {
+  padding: 1rem 1.5rem;
+  border: none;
+  background-color: #380f54;
+  color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.expense-form-action button:hover {
+  opacity: 0.8;
+}
+
+.expense-form-toggler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.expense-form-toggler button {
+  padding: 1rem 1.5rem;
+  border: none;
+  background-color: #380f54;
+  color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+}

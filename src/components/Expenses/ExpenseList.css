@@ -1,0 +1,18 @@
+.no-expenses {
+  width: 95%;
+  margin: 1rem auto;
+  background: #555;
+  border-radius: 12px;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.no-expenses p {
+  padding: 1.5rem;
+}
+
+.expense-list {
+  list-style: none;
+}
